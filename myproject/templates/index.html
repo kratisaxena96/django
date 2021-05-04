@@ -1,0 +1,33 @@
+{% block head %}
+<html>
+    <head>
+        <style>
+        body{
+            background: linear-gradient(coral,#123456);
+        }
+        li{
+            display: inline;
+            padding: 10px;
+        }
+        a{
+            font-size: 50px;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            text-decoration: none;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li><a href="/users/">HOME</a></li>
+                <li><a href="/users/signin/">SIGN IN</a></li>
+                <li><a href="#">BLOGS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
+{% endblock %}
